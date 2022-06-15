@@ -1,4 +1,4 @@
-enum statusEnum {
+enum StatusEnum {
   unknown,
   ongoing,
   completed,
@@ -15,7 +15,7 @@ class Manga {
   String author;
   String description;
   String genre;
-  statusEnum status;
+  StatusEnum status;
   String thumbnailUrl;
   bool initialized;
 
@@ -26,7 +26,7 @@ class Manga {
     this.author = '',
     this.description = '',
     this.genre = '',
-    this.status = statusEnum.unknown,
+    this.status = StatusEnum.unknown,
     this.thumbnailUrl = '',
     this.initialized = false,
   });
